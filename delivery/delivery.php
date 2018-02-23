@@ -33,7 +33,7 @@ if( strtotime($ctime)<=strtotime('12:00:00') )
         break;
 
         case 'SVD_003':
-          $sql="select * from litre WHERE date ='$today' AND delivery_status_m='N' AND active_m='0' AND orderid  IN (select id from order_history where location IN ('HSRLayout','Bilekahalli'))";
+          $sql="select * from litre WHERE date ='$today' AND delivery_status_m='N' AND active_m='0' AND orderid  IN (select id from order_history where location IN ('Bilekahalli'))";
           break;
             case 'SVD_004':
         $sql="select * from litre WHERE date ='$today' AND delivery_status_m='N' AND active_m='0' AND orderid  IN (select id from order_history where location = 'Begur')";
