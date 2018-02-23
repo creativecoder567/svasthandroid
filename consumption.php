@@ -19,7 +19,7 @@ if (array_key_exists('userid', $data)){
       }
 if ($SESSION=='Morning') {
   //echo $SESSION;
-  $sql="select * from litre WHERE userid = '$USERID' AND  orderid ='$ORDERID' AND active_m ='1'  ";
+  $sql="select * from litre WHERE userid = '$USERID' AND  orderid ='$ORDERID' AND delivery_status_m ='Y'  ";
   $result=mysqli_query($db,$sql);
 
   while ($row=mysqli_fetch_array($result)) {
@@ -27,7 +27,7 @@ if ($SESSION=='Morning') {
   }
 }else {
   //echo $SESSION;
-    $sql="select * from litre WHERE userid = '$USERID' AND  orderid ='$ORDERID'  AND active_e ='1' ";
+    $sql="select * from litre WHERE userid = '$USERID' AND  orderid ='$ORDERID'  AND delivery_status_e ='Y' ";
     $result=mysqli_query($db,$sql);
 
     while ($row=mysqli_fetch_array($result)) {
