@@ -1,0 +1,9 @@
+[22-Feb-2018 08:56:30 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home/krakerzindia/public_html/svasthlife.com/android/user/crypt.php on line 8
+[22-Feb-2018 08:56:30 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home/krakerzindia/public_html/svasthlife.com/android/user/crypt.php on line 10
+[22-Feb-2018 08:56:30 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home/krakerzindia/public_html/svasthlife.com/android/user/crypt.php on line 11
+[22-Feb-2018 08:58:16 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home/krakerzindia/public_html/svasthlife.com/android/user/crypt.php on line 12
+[22-Feb-2018 08:58:16 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home/krakerzindia/public_html/svasthlife.com/android/user/crypt.php on line 14
+[22-Feb-2018 08:58:16 UTC] PHP Deprecated:  crypt(): Supplied salt is not valid for DES. Possible bug in provided salt format. in /home/krakerzindia/public_html/svasthlife.com/android/user/crypt.php on line 15
+[22-Feb-2018 11:00:51 UTC] PHP Parse error:  syntax error, unexpected 'd2639bdfb' (T_STRING), expecting ',' or ')' in /home/krakerzindia/public_html/svasthlife.com/android/user/test.php on line 2
+[22-Feb-2018 11:02:35 UTC] PHP Parse error:  syntax error, unexpected 'd2639bdfb' (T_STRING), expecting ',' or ')' in /home/krakerzindia/public_html/svasthlife.com/android/user/test.php on line 2
+[22-Feb-2018 11:08:56 UTC] PHP Notice:  Use of undefined constant str - assumed 'str' in /home/krakerzindia/public_html/svasthlife.com/android/user/test.php on line 6
